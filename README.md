@@ -1,6 +1,8 @@
 # digital-breakthrough-hack
 N-th place solution of RZD hackathon
 
+Note: to reproduce solution you should have a machine with at least 2x3090
+
 ## Data dir tree structure
 ```
 -- data
