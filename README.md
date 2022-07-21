@@ -30,8 +30,8 @@ bash launch_docker.sh
 ## Prepare training masks & split
 ```
 cd /workspace/rlh
-python3 create_split.py
 python3 create_masks.py
+python3 make_splits.py
 ```
 
 ## Data dir structure now
