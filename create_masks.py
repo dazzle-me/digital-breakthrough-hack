@@ -10,8 +10,8 @@ pixel_mapping = {
     10 : 3
 }
 if __name__ == '__main__':
-    data_dir = '/workspace/datasets/rlh/data/train/mask'
-    new_dir_name = '/workspace/datasets/rlh/data/train/new_mask'
+    data_dir = '/workspace/data/train/mask'
+    new_dir_name = '/workspace/data/train/new_mask'
     test = False
 
     os.makedirs(new_dir_name, exist_ok=True)

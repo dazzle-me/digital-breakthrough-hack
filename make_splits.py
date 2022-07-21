@@ -10,8 +10,8 @@ import os
 from os.path import join
 
 if __name__ == '__main__':
-    data_root = '/workspace/datasets/rlh/data'
-    base_dir = '/workspace/datasets/rlh/data/train'
+    data_root = '/workspace/data'
+    base_dir = '/workspace/data/train'
     mask_dir = join(base_dir, 'new_mask')
     df = pd.DataFrame(columns=['id', 'background', 'main_rails', 'side_rails', 'train'])
     test = False
