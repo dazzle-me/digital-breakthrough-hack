@@ -3,6 +3,10 @@ N-th place solution of RZD hackathon
 
 Note: to reproduce solution you should have a machine with at least 2x3090
 
+## Download data
+
+[train](https://lodmedia.hb.bizmrg.com/case_files/766370/train_dataset_train.zip), [test](https://lodmedia.hb.bizmrg.com/case_files/766370/test_dataset_test.zip)
+
 ## Data dir tree structure
 ```
 -- data
