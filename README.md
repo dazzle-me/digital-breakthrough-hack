@@ -23,6 +23,8 @@ docker build . -t rlh
 ```
 
 ## Launch docker
+Before launching the docker container, change ```/path/to/data``` and ```/path/to/src/``` to the appropriate directories.
+
 ```
 bash launch_docker.sh
 ```
