@@ -1,5 +1,11 @@
 # digital-breakthrough-hack
-N-th place solution of RZD hackathon
+N-th place solution of [RZD hackathon](https://hacks-ai.ru/championships/758453)
+
+Note: to reproduce solution you should have a machine with at least 2x3090
+
+## Download data
+
+[train](https://lodmedia.hb.bizmrg.com/case_files/766370/train_dataset_train.zip), [test](https://lodmedia.hb.bizmrg.com/case_files/766370/test_dataset_test.zip)
 
 ## Data dir tree structure
 ```
@@ -17,6 +23,8 @@ docker build . -t rlh
 ```
 
 ## Launch docker
+Before launching the docker container, change ```/path/to/data``` and ```/path/to/src/``` to the appropriate directories.
+
 ```
 bash launch_docker.sh
 ```
@@ -24,8 +32,8 @@ bash launch_docker.sh
 ## Prepare training masks & split
 ```
 cd /workspace/rlh
-python3 create_split.py
 python3 create_masks.py
+python3 make_splits.py
 ```
 
 ## Data dir structure now
