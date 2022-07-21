@@ -49,7 +49,7 @@ python3 create_masks.py
 
 ```
 cd /workspace/rlh/mmsegmentation
-bash tools/dist_train.py /workspace/rlh/configs/config_27_augs.py 2 --work-dir /workspace/rlh/work_dirs/exp37
+bash tools/dist_train.sh /workspace/rlh/configs/config_27_augs.py 2 --work-dir /workspace/rlh/work_dirs/exp37
 ```
 
 ## Inference trained model
