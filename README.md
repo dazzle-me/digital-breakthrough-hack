@@ -62,5 +62,6 @@ bash tools/dist_train.sh /workspace/rlh/configs/config_27_augs.py 2 --work-dir /
 
 ## Inference trained model
 ```
+cd /workspace/rlh
 python3 inference.py --exp exp37
 ```
