@@ -1,5 +1,5 @@
 # digital-breakthrough-hack
-First place solution of [RZD hackathon](https://hacks-ai.ru/championships/758453)
+First place solution of [Russian Railways hackathon](https://hacks-ai.ru/championships/758453)
 
 Note: to reproduce solution you should have a machine with at least 2x3090
 
